@@ -20,6 +20,22 @@
       "dest": "/fonts/$1"
     },
     {
+      "src": "/static/chunks/(.*)",
+      "dest": "/js/$1"
+    },
+    {
+      "src": "/static/css/(.*)",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/static/media/(.*)",
+      "dest": "/fonts/$1"
+    },
+    {
+      "src": "/_next/(.*)",
+      "dest": "/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }
