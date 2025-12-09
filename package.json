@@ -1,0 +1,11 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio site",
+  "scripts": {
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
