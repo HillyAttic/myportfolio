@@ -8,6 +8,18 @@
   ],
   "routes": [
     {
+      "src": "/_next/static/chunks/(.*)",
+      "dest": "/js/$1"
+    },
+    {
+      "src": "/_next/static/css/(.*)",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/_next/static/media/(.*)",
+      "dest": "/fonts/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }
